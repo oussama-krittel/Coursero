@@ -1,22 +1,33 @@
-import './App.css';
-
+import "./App.css";
+import { useParams } from "react-router-dom";
+import Header from "./components/header";
+import { Stand } from "./components/stand";
+import { SideBar } from "./components/sideBar";
+import { Video } from "./components/video";
 function App() {
-  // const opts = {
-  //   height: '390',
-  //   width: '640',
-  //   playerVars: {
-  //     autoplay: 0,
-  //   },
-  // };
+  const { slug } = useParams();
   return (
     <div>
-      <h1 className='bg-red-700'>Testing</h1>
+      <Header />
+      <main className="flex flex-1 gap-4 max-w-[1460px] my-8 mx-auto ">
+        {slug ? <Video lessonSlug={slug} /> : <Stand />}
+        <SideBar />
+      </main>
     </div>
   );
 }
 
 export default App;
 
-{/* <div>
+{
+  /* <div>
       <YouTube videoId={"k5tICunelSU"} opts={opts} />
-    </div> */}
+    </div> */
+}
+// const opts = {
+//   height: '390',
+//   width: '640',
+//   playerVars: {
+//     autoplay: 0,
+//   },
+// };
