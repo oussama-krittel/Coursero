@@ -1,9 +1,8 @@
 import "./App.css";
-import Footer from "./components/footer";
-
 import Header from "./components/header";
+import { SideBar } from "./components/sideBar";
 import Main from "./components/mainContent";
-import QuizSection from "./components/quizSection";
+import Footer from "./components/footer";
 function App() {
   //if slug is false then no chap is choosen
   //then rander the explenation of the course
@@ -11,16 +10,10 @@ function App() {
   return (
     <div>
       <Header />
-      <div className="flex justify-between w-full ">
+      <main className="flex  bg-white h-screen w-full">
         <Main />
-
-        {
-          // <QuizSection />
-        }
-        <div id="sidebar" className="bg-red-200 w-1/4">
-          this is the sidebar
-        </div>
-      </div>
+        <SideBar />
+      </main>
       <Footer />
     </div>
   );

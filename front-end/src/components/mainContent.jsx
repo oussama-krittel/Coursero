@@ -10,14 +10,14 @@ const Main = () => {
   return (
     <>
       {slug ? (
-        <main className="w-3/4 p-2">
+        <div className="w-8/12 bg-white drop-shadow-lg m-2 overflow-y-scroll overflow-x-hidden hideScroll rounded">
           <Video />
           <Description />
           <nav className="flex w-full justify-between mt-6 py-3">
             <Button text="prev" />
             <Button text="next" />
           </nav>
-        </main>
+        </div>
       ) : (
         <CourseDescription />
       )}

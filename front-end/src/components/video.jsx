@@ -8,11 +8,7 @@ const Video = () => {
       autoplay: 0,
     },
   };
-  return (
-    <div>
-      <YouTube videoId={"5KZExVcsWwQ"} opts={opts} />
-    </div>
-  );
+  return <YouTube videoId={"5KZExVcsWwQ"} opts={opts} />;
 };
 
 export default Video;
