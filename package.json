@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@vime/react": "^5.4.1"
+  }
+}
