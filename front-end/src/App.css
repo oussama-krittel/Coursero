@@ -1,0 +1,25 @@
+.hideScroll::-webkit-scrollbar {
+    width: 0.5em;
+}
+.hideScroll:-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-thumb {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+  border-radius: 5%;
+}
+body::-webkit-scrollbar-track {
+    --tw-bg-opacity: 1;
+    background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
+.selected{
+    color: blue;
+    background-color: whitesmoke;
+}

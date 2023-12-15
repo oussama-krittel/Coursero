@@ -1,0 +1,24 @@
+{
+  "chapitres": [
+    {
+      "id": 1,
+      "numero": 1,
+      "titre": "Introduction"
+    },
+    {
+      "id": 2,
+      "numero": 2,
+      "titre": "Le Début"
+    },
+    {
+      "id": 3,
+      "numero": 3,
+      "titre": "Le Milieu"
+    },
+    {
+      "id": 4,
+      "numero": 4,
+      "titre": "La Fin"
+    }
+  ]
+}
