@@ -7,7 +7,7 @@ export function Sylabus({ chapitre, selected, onSelectedChange }) {
     .sort((a, b) => a.numero - b.numero);
 
   return (
-    <div className="">
+    <div className="cursor-pointer">
       <h1 className="font-bold text-lg">{chapitre.titre}</h1>
       <div className="pl-4">
         {filteredParagraphs.map((paragraphe) => (

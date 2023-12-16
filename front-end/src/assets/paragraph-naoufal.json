@@ -3,9 +3,9 @@
   "comment": "after a get req with the paragraph id as a query parameter this is the object intended to be returned",
   "par_id": 23,
   "par_chap_num": 2,
-  "vedio_id": "5KZExVcsWwQ",
+  "video_id": "5KZExVcsWwQ",
   "par_num": 1,
   "par_name": "le nom de paragraph",
-  "par description": "Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing, or to spoof an e-mail spam filter."
+  "par_description": "Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing, or to spoof an e-mail spam filter."
 
 }

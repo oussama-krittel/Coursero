@@ -1,6 +1,6 @@
 import React from "react";
 import YouTube from "react-youtube";
-const Video = () => {
+const Video = ({ video_id }) => {
   const opts = {
     height: "390",
     width: "100%",
@@ -8,7 +8,7 @@ const Video = () => {
       autoplay: 0,
     },
   };
-  return <YouTube videoId={"5KZExVcsWwQ"} opts={opts} />;
+  return <YouTube videoId={video_id} opts={opts} />;
 };
 
 export default Video;
