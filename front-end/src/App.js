@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Header />
       {/* the main component should not have a fixed height, the questions list rendered by the quiz section overflows !! */}
-      <main className="flex  bg-white {h-screen} w-full">
+      <main className="flex  bg-white h-screen w-full">
         <div className="w-8/12 m-2">
           <Routes>
             <Route path="/" element={<HomePage />} />
