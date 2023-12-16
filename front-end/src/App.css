@@ -15,7 +15,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .selected {
-  color: blue;
+  --tw-text-opacity: 1;
+    color: rgb(59 130 246 / var(--tw-text-opacity));
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
