@@ -2,7 +2,7 @@ import React from "react";
 
 const Description = () => {
   return (
-    <section className="mt-4">
+    <section className="mt-4 px-2">
       <h1 className=" flex flex-wrap items-baseline ">
         <span className="font-bold uppercase text-gray-800 mr-6 text-[30px]">
           Paragraphe 1 :

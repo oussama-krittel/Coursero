@@ -1,0 +1,46 @@
+
+{
+  "comment": "after a get req with the quiz id as a query parameter this is the object intended to be returned",
+  "quiz_id": 23,
+  "quiz_num": 2,
+  "acomplished": false,
+  "question_list": [
+    {
+      "question_id": 1,
+      "question_num": 1,
+      "question_text": "Is React A Java Framework?",
+      "question_options": ["yes", "no"],
+      "correct_option": "no"
+    },
+    {
+      "question_id": 2,
+      "question_num": 2,
+      "question_text": "What language is React primarily based on?",
+      "question_options": ["JavaScript", "Java", "Python", "C++"],
+      "correct_option": "JavaScript"
+    },
+    {
+      "question_id": 3,
+      "question_num": 3,
+      "question_text": "What does JSX stand for in React?",
+      "question_options": ["JavaScript XML", "Java Standard Extension", "JSON Syntax Extension", "JavaScript Syntax XML"],
+      "correct_option": "JavaScript XML"
+    },
+    {
+      "question_id": 4,
+      "question_num": 4,
+      "question_text": "Which lifecycle method is invoked after the component output has been rendered to the DOM in React?",
+      "question_options": ["componentWillUnmount", "componentDidMount", "componentWillMount", "componentDidUpdate"],
+      "correct_option": "componentDidMount"
+    },
+    {
+      "question_id": 5,
+      "question_num": 5,
+      "question_text": "What tool can be used for managing the state in React?",
+      "question_options": ["Redux", "Flux", "Both Redux and Flux", "None of the above"],
+      "correct_option": "Both Redux and Flux"
+    }
+  ]
+  
+
+}

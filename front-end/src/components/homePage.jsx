@@ -1,7 +1,8 @@
 import React from "react";
 import Button from "./button";
+import { Route } from "react-router-dom";
 
-const CourseDescription = () => {
+const HomePage = () => {
   return (
     <main className="flex w-full flex-col items-center py-10">
       <h1 className="text-[40px] uppercase font-bold text-blue-500">
@@ -31,4 +32,4 @@ const CourseDescription = () => {
   );
 };
 
-export default CourseDescription;
+export default HomePage;
