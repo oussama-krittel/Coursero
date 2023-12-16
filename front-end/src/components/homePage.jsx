@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./button";
-import { Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -27,7 +27,9 @@ const HomePage = () => {
         pour les débutants jusqu'aux concepts avancés pour les développeurs
         expérimentés.
       </p>
-      <Button text="Commancer" />
+      <Link to="/paragraphe/23">
+        <Button text="Commancer" />
+      </Link>
     </main>
   );
 };
