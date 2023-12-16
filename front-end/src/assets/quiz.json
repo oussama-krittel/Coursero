@@ -3,7 +3,8 @@
   "comment": "after a get req with the quiz id as a query parameter this is the object intended to be returned",
   "quiz_id": 23,
   "quiz_num": 2,
-  "acomplished": false,
+  "acomplished": true,
+  "score": 80,
   "question_list": [
     {
       "question_id": 1,
