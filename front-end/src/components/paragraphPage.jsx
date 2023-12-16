@@ -9,7 +9,7 @@ const ParagraphePage = () => {
   const { par_chap_num, video_id, par_num, par_name, par_description } =
     paragraph_rep;
   return (
-    <div className="w-full bg-white drop-shadow-lg overflow-y-scroll overflow-x-hidden hideScroll rounded">
+    <div className="w-full bg-white drop-shadow-lg max-h-full overflow-y-scroll hideScroll rounded">
       <Video id={video_id} />
       <Description
         number={par_num}

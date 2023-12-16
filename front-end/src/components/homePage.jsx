@@ -1,10 +1,10 @@
 import React from "react";
 import Button from "./button";
-import { Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
-    <main className="flex w-full flex-col items-center py-10">
+    <main className="flex w-full flex-col items-center py-10 max-h-full overflow-y-scroll hideScroll">
       <h1 className="text-[40px] uppercase font-bold text-blue-500">
         Bonjour !
       </h1>
@@ -27,7 +27,9 @@ const HomePage = () => {
         pour les débutants jusqu'aux concepts avancés pour les développeurs
         expérimentés.
       </p>
-      <Button text="Commancer" />
+      <Link to={"/paragraphe/" + 1}>
+        <Button text="Commancer" />
+      </Link>
     </main>
   );
 };

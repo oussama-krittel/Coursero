@@ -1,5 +1,6 @@
 import React from "react";
 import paragraphs from "../assets/paragraph.json";
+import { Link } from "react-router-dom";
 
 export function Sylabus({ chapitre, selected, onSelectedChange }) {
   const filteredParagraphs = (paragraphs.paragraphes || [])
@@ -11,7 +12,8 @@ export function Sylabus({ chapitre, selected, onSelectedChange }) {
       <h1 className="font-bold text-lg">{chapitre.titre}</h1>
       <div className="pl-4">
         {filteredParagraphs.map((paragraphe) => (
-          <div
+          <Link
+            to={"/paragraphe/" + paragraphe.id}
             key={paragraphe.id}
             className={`flex items-center leading-4 hover:bg-slate-100 h-12 rounded-md m-3 w-full ${
               selected === paragraphe.id ? "selected" : ""
@@ -22,9 +24,10 @@ export function Sylabus({ chapitre, selected, onSelectedChange }) {
               {paragraphe.numero}
             </span>
             {paragraphe.titre}
-          </div>
+          </Link>
         ))}
-        <div
+        <Link
+          to={"/quiz/" + chapitre.id}
           className={`flex items-center leading-4 hover:bg-slate-100 h-12 rounded-md m-3 w-full ${
             selected === chapitre.id + "Q" ? "selected" : ""
           }`}
@@ -34,7 +37,7 @@ export function Sylabus({ chapitre, selected, onSelectedChange }) {
             ?
           </span>
           Quiz
-        </div>
+        </Link>
       </div>
     </div>
   );
