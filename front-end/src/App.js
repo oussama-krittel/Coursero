@@ -9,7 +9,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 function App() {
   //if slug is false then no chap is choosen
   //then rander the explenation of the course
-  const slug = false;
+  // const slug = false;
   return (
     <Router>
       <Header />

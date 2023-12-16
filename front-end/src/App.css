@@ -1,8 +1,8 @@
 .hideScroll::-webkit-scrollbar {
-    width: 0.5em;
+  width: 0.5em;
 }
 .hideScroll:-webkit-scrollbar-thumb {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 body::-webkit-scrollbar {
@@ -11,15 +11,15 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-thumb {
   --tw-bg-opacity: 1;
-  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
-  border-radius: 5%;
-}
-body::-webkit-scrollbar-track {
-    --tw-bg-opacity: 1;
-    background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+  background-color: rgb(69, 115, 224);
 }
 
-.selected{
-    color: blue;
-    background-color: whitesmoke;
+.selected {
+  color: blue;
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+body {
+  background-color: whitesmoke;
 }
