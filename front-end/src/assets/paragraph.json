@@ -1,52 +1,40 @@
 {
   "paragraphes": [
     {
-      "id": 1,
-      "numero": 1,
-      "titre": "Introduction au paragraphe 1",
-      "contenu": "Ceci est le contenu du paragraphe 1.",
-      "videourl": "https://exemple.com/video1.mp4",
-      "chapitreid": 1
+      "par_id": 1,
+      "par_num": 1,
+      "par_name": "Introduction au paragraphe 1",
+      "par_chap_num": 1
     },
     {
-      "id": 2,
-      "numero": 2,
-      "titre": "Introduction au paragraphe 2",
-      "contenu": "Ceci est le contenu du paragraphe 2.",
-      "videourl": "https://exemple.com/video2.mp4",
-      "chapitreid": 1
+      "par_id": 2,
+      "par_num": 2,
+      "par_name": "Introduction au paragraphe 2",
+      "par_chap_num": 1
     },
     {
-      "id": 3,
-      "numero": 1,
-      "titre": "Développement du paragraphe 1",
-      "contenu": "Ceci est le contenu du paragraphe 1 du deuxième chapitre.",
-      "videourl": "https://exemple.com/video3.mp4",
-      "chapitreid": 2
+      "par_id": 3,
+      "par_num": 1,
+      "par_name": "Développement du paragraphe 1",
+      "par_chap_num": 2
     },
     {
-      "id": 4,
-      "numero": 3,
-      "titre": "Conclusion du chapitre 1",
-      "contenu": "Ceci est le contenu de la conclusion du chapitre 1.",
-      "videourl": "https://exemple.com/video4.mp4",
-      "chapitreid": 1
+      "par_id": 4,
+      "par_num": 3,
+      "par_name": "Conclusion du chapitre 1",
+      "par_chap_num": 1
     },
     {
-      "id": 5,
-      "numero": 2,
-      "titre": "Développement du paragraphe 2",
-      "contenu": "Ceci est le contenu du paragraphe 2 du deuxième chapitre.",
-      "videourl": "https://exemple.com/video5.mp4",
-      "chapitreid": 2
+      "par_id": 5,
+      "par_num": 2,
+      "par_name": "Développement du paragraphe 2",
+      "par_chap_num": 2
     },
     {
-      "id": 6,
-      "numero": 1,
-      "titre": "Introduction au paragraphe 3",
-      "contenu": "Ceci est le contenu du paragraphe 3 du troisième chapitre.",
-      "videourl": "https://exemple.com/video6.mp4",
-      "chapitreid": 3
+      "par_id": 6,
+      "par_num": 1,
+      "par_name": "Introduction au paragraphe 3",
+      "par_chap_num": 3
     }
   ]
 }
