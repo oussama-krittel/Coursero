@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 export function Sylabus({ chapitre, selected, onSelectedChange }) {
   const filteredParagraphs = (paragraphs.paragraphes || [])
-    .filter((paragraphe) => paragraphe.chapitreid === chapitre.id)
-    .sort((a, b) => a.numero - b.numero);
+    .filter((paragraphe) => paragraphe.par_chap_num === chapitre.id)
+    .sort((a, b) => a.par_num - b.par_num);
 
   return (
     <div className="cursor-pointer">
@@ -13,17 +13,17 @@ export function Sylabus({ chapitre, selected, onSelectedChange }) {
       <div className="pl-4">
         {filteredParagraphs.map((paragraphe) => (
           <Link
-            to={"/paragraphe/" + paragraphe.id}
-            key={paragraphe.id}
+            to={"/paragraphe/" + paragraphe.par_id}
+            key={paragraphe.par_id}
             className={`flex items-center leading-4 hover:bg-slate-100 h-12 rounded-md m-3 w-full ${
-              selected === paragraphe.id ? "selected" : ""
+              selected === paragraphe.par_id ? "selected" : ""
             }`}
-            onClick={() => onSelectedChange(paragraphe.id)}
+            onClick={() => onSelectedChange(paragraphe.par_id)}
           >
             <span className="bg-blue-500 ml-3 rounded-full w-6 h-6 flex items-center justify-center  text-white mr-1">
-              {paragraphe.numero}
+              {paragraphe.par_num}
             </span>
-            {paragraphe.titre}
+            {paragraphe.par_name}
           </Link>
         ))}
         <Link
